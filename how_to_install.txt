@@ -1,0 +1,12 @@
+1. Install conda:
+
+
+2. $ source ~/.bashrc  #export the updated $PATH
+
+3. conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
+
+4. That's it!
+
+5. Also, to run Jupyter notebooks:
+	$ jupyter notebook
+--> It's headless, so you have to copy and paste the URL into a browser

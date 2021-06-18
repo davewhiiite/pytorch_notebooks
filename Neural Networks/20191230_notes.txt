@@ -1,0 +1,30 @@
+Sigmoid function = good for binary datasets
+
+Softmax = good for multi-class datasets ... HOW MANY?
+
+
+Training Set + Test Set
+
+The act of getting the model to work well on data it hasn't seen before is called "generalization"
+
+Want training error low, AND also test error low.
+
+NN gets really good at the training data. It memorizes it and fails to generalize to new inputs.
+- it's possible that the more we get reduce the training error, the worse the test error could be.
+
+
+1. Small training error - challenge: underfitting
+2. Gap between test and training error grows larger - challenge: overfitting
+
+Overfitting: we never want it to memorize a specific feature
+
+Good guidelines:
+1. Not more than 2 layers deep (to start)
+2. More inputs than hidden layers
+3. fewer outputs than layers
+4. inputs > layers + outputs (?)
+
+
+Regularization = aim to reduce generalization error
+
+
